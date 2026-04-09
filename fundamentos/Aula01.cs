@@ -7,19 +7,18 @@ public class Aula01
     {
         //inicio
         this.ExibirCabecalho();
-
-
-
-
-
+        VariaveisETiposDeDados variaveisETiposDeDados = new VariaveisETiposDeDados();
+        variaveisETiposDeDados.Executar();
+        
+        Console.WriteLine();
+        //Operadores Aritmeticos
+        OperadoresAritmeticos operadoresAritmeticos = new OperadoresAritmeticos();
+        operadoresAritmeticos.Executar();
     
-    
+       //dim
        this.ResumoAula();
     
-    
     }
-
-
 
 
             private void ExibirCabecalho()
